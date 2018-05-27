@@ -1,0 +1,14 @@
+{{extend './public/base.html'}}
+{{block 'main'}}
+<h1><%=data.name%></h1>
+<h1>这是我的内容</h1>
+<h1><%=title%></h1>
+<!-- {{data.h}} -->
+{{@data.h}}
+{{data.name}}
+{{if num>44}}
+    <span>大于44</span>
+{{else num<=44}}
+    <span>不大于44</span>
+{{/if}}
+{{/block 'main'}}

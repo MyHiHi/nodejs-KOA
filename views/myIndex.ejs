@@ -1,0 +1,14 @@
+<div style="text-align: center;margin : 0 auto">
+    <h1><%=name%></h1>
+    <%-html%>
+    <%include public/header.ejs%>
+    <h1>这是HTML</h1>
+    <h2><%=title%></h2>
+    <ul>
+        
+    <% for (let i=0;i<list.length;i++){%>
+            <li> <%=list[i]%>
+            </li>
+        <%}%>
+    </ul>
+</div>
