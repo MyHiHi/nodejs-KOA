@@ -1,7 +1,24 @@
 {
+  "name": "FirstKoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "koa-session": "^5.8.1",
-    "md5": "^2.2.1",
-    "mongodb": "^3.1.0-beta4"
+    "art-template": "^4.12.2",
+    "ejs": "^2.6.1",
+    "koa": "^2.5.1",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "koa-views": "^6.1.4",
+    "koa-session":"^5.8.1",
+    "mongodb":"^3.1.0"
   }
 }
