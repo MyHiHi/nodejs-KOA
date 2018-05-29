@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "koa-session": "^5.8.1",
+    "md5": "^2.2.1",
+    "mongodb": "^3.1.0-beta4"
+  }
+}
