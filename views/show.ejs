@@ -1,5 +1,23 @@
-<h1>{{name}}----{{pwd}}</h1>
-<script>
-    // console.log(document.cookie)
-    // alert(document.cookie.toString())
-</script>
+<div>
+    <a href="/add">增加</a>
+    <table>
+        <thead>
+            <th>用户名</th>
+            <th>年龄</th>
+        </thead>
+        <tbody>
+
+                {{each list}}
+                    <tr>
+                            <td>{{$value.username}}</td>
+                            <td>{{$value.age}}</td>
+                            <td><a href="/edit?id={{@$value._id}}">编辑</a>    <a href="/delete?id={{@$value._id}}">删除</a></td>
+                    </tr>
+                         
+                {{/each}}
+        </tbody>
+           
+    </table>
+
+
+</div>
